@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/23325533/pexels-photo-23325533/free-photo-of-gadwall.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 50px;
+    color: white;
+}
+#nav h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+#nav i{
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#full{
+    height: 100%;
+    width: 25%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.495);
+    top: 0;
+    right: -25%;
+    backdrop-filter: blur(15px);
+    padding: 150px 50px;
+
+}
+#full h4{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#full i{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 800;
+}
+    
